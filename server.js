@@ -13,10 +13,8 @@ const db = knex({
   client: "pg",
   version: "7.2",
   connection: {
-    host: "127.0.0.1", // means local host
-    user: "ginnnnnn",
-    password: "",
-    database: "smart-jake"
+    connectionString: process.env.DATABASE_URL,
+    ssl: true
   }
 });
 
