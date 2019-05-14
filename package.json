@@ -12,11 +12,8 @@
     "knex": "^0.16.5",
     "pg": "^7.11.0"
   },
-  "devDependencies": {
-    "nodemon": "^1.19.0"
-  },
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
